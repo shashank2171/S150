@@ -1,0 +1,47 @@
+
+
+.header{
+    position: relative;
+    overflow: hidden;
+    font-size: 1.25rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+}
+
+.header .logo img{
+    height: 6rem;
+    margin-left: 150%;
+}
+
+#book{
+    color: cyan;
+    padding: 10px;
+    border: 2px solid cyan;
+    margin-right: 60px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#book:hover{
+    background-color: cyan;
+    text-decoration-color: #fff;
+}
+
+.navbar{
+    align-items: center;
+}
+
+.header .navbar a{
+    margin:0 1rem;
+    font-size: 1.6rem;
+    color:#fff;
+    text-decoration: none;
+}
+
+.header .navbar a:hover{
+    color: cyan;
+}
